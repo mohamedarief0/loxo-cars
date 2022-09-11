@@ -1,0 +1,64 @@
+
+.card{
+    background-color: rgba(201, 199, 169, 0.76);
+    border:5px solid rgba(10, 10, 9, 0.507) ;
+    border-radius: 20px;
+    width: 500px;
+    padding: 18px;
+    justify-content : center;
+    margin: 30px;
+    margin-top: 20px;
+    font-size:x-large;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.mohan{
+    width: 100px;
+    border-radius: 50px;
+    float: right;
+    margin-top: -80px;
+    border: 3px solid rgba(128, 128, 128, 0.315);
+}
+.userplace{
+    width: 100%;
+   margin-right: 200px;
+}
+
+body {
+    height: 100vh;
+    background-image: url('./images/1866525710.jpg');
+    background-size: cover;    
+}
+.logo{
+    width: 250px;
+    border-radius: 70px;
+}
+.flex1{
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+}
+.flex2{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.demo{
+     animation-name: demo;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+
+
+}
+@keyframes demo{
+    100%{
+        transform:0;
+        margin-left: 100%;
+    }
+}
+.wh{
+    border-radius: 250px;
+    width: 50px;
+    
+}
